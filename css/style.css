@@ -23,3 +23,39 @@ body{
 .paragrafo{
     padding: 100px 0 50px 0;
 }
+
+
+.body-section{
+    width: 1562px;
+    height: 460px;
+    border: 4px solid magenta;
+    margin-left: 200px;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+.name{
+    float: left;
+    width: 750px;
+    height: 150px;
+    border: 4px solid blue;
+}
+
+.img{
+    float: left;
+    margin-right: 50px;
+    width: 200px;
+    height: 150px;
+    border: 5px solid red;
+}
+
+h2,
+h3{
+    margin-top: 10px;
+}
+
+.business-card{
+}    
