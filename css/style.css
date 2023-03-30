@@ -5,13 +5,11 @@
     box-sizing: border-box;
 }
 
-body{
+body, 
+.head-section
+.body-section
+{
     font-size: 20px;
-    margin:50px 200px 0 200px;
-}
-
-.head-section{
-    text-align: center;
     margin:50px 200px 0 200px;
 }
 
@@ -20,37 +18,42 @@ body{
     font-size: 30px;
 }
 
+.paragrafo, 
+.titolo-grande{
+    text-align: center;
+}
+
 .paragrafo{
     padding: 100px 0 50px 0;
 }
 
-.name{
-    float: left;
-    width: 33%;
+.box{
     background-color: #0F0E17;
-    border: 20px solid white;
+    border: 20px solid blue;
 }
 
 img{
-    width: 150px;
-    /* height: 150px; */
+    width:150px;
 } 
 
-.image{
+.box, 
+.photo{
     float: left;
-    margin-right: 20px;
-    width: 150px;
-    height: 150px;
+    width: 33%;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+color: cornflowerblue;
 }
 
 h2,
 h3{
-    margin-top: 10px;
-    color: white;
+    margin-top:10px;
 }
-
-.business-card{
-}   
 
 .clearfix::after {
     content: "";
