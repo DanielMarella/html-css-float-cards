@@ -1,18 +1,18 @@
 /* RESET */
-body{
-    font-size: 20px;
-}
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body{
+    font-size: 20px;
+    margin:50px 200px 0 200px;
+}
 
 .head-section{
     text-align: center;
-    margin:100px 200px 0 200px;
+    margin:50px 200px 0 200px;
 }
 
 .titolo-grande{
@@ -24,38 +24,36 @@ body{
     padding: 100px 0 50px 0;
 }
 
-
-.body-section{
-    width: 1562px;
-    height: 460px;
-    border: 4px solid magenta;
-    margin-left: 200px;
+.name{
+    float: left;
+    width: 33%;
+    background-color: #0F0E17;
+    border: 20px solid white;
 }
 
 img{
     width: 150px;
-    height: 150px;
-}
+    /* height: 150px; */
+} 
 
-.name{
+.image{
     float: left;
-    width: 750px;
+    margin-right: 20px;
+    width: 150px;
     height: 150px;
-    border: 4px solid blue;
-}
-
-.img{
-    float: left;
-    margin-right: 50px;
-    width: 200px;
-    height: 150px;
-    border: 5px solid red;
 }
 
 h2,
 h3{
     margin-top: 10px;
+    color: white;
 }
 
 .business-card{
-}    
+}   
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
