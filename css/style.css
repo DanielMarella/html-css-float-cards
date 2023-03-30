@@ -1,7 +1,25 @@
 /* RESET */
+body{
+    font-size: 20px;
+}
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+
+.head-section{
+    text-align: center;
+    margin:100px 200px 0 200px;
+}
+
+.titolo-grande{
+    color: #E53170;
+    font-size: 30px;
+}
+
+.paragrafo{
+    padding: 100px 0 50px 0;
 }
