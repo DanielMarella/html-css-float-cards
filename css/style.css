@@ -29,7 +29,7 @@ body,
 
 .box{
     background-color: #0F0E17;
-    border: 20px solid blue;
+    border: 20px solid white;
 }
 
 img{
@@ -39,7 +39,7 @@ img{
 .box, 
 .photo{
     float: left;
-    width: 33%;
+    width: 33.33%;
 }
 
 h2{
